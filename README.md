@@ -1,2 +1,2 @@
 # FlaskFramework
-This repository will hold application written using the Flask framework.
+This repository will hold applications written using the Flask framework.
