@@ -1,0 +1,8 @@
+from flask import Flask
+from flask import request 
+
+@app.route('/')
+def index():
+    user_agent = request.headers.get('User-Agent')
+    return '<p>Your browser is {}</p>'.format(user_agent)
+    
